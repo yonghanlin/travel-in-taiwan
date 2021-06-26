@@ -1,0 +1,110 @@
+html,body{
+    margin:0;
+    padding:0;
+    border:0;
+	height:100%;
+}
+header{
+	padding: 50px;
+    background: #003049;
+    color:white;
+    text-align: center;
+    font-family:Courier;
+}
+h2{
+	font-size:30px;
+}
+h3{
+	padding:20px;
+	text-align: center;
+}
+p{
+	font-size: 15px;
+	color:darkgray;
+	
+}
+.btn-area{
+	text-align: center;
+	padding: 20px 0 20px 0;
+}
+.btn{	
+	background-color:#4CAF50;
+	color:white;
+	font-size: 15px; /* Set a font size */
+	cursor: pointer; /* Mouse pointer on hover */
+	
+}
+.btn:hover{
+	background-color: darkgreen;
+}
+.btn1{		
+	background-color: white;	    
+	cursor: pointer; /* Mouse pointer on hover */
+	margin: 5px 5px 5px 5px;   
+}
+.btn1:hover{
+	background-color: darkgray;
+}
+footer{
+	list-style: none;
+    padding:10px 10px 10px 10px;
+    line-height: 1em;
+    text-align:center;
+	background-color: lightgray;
+	
+	position: relative;
+}
+footer p{
+	color:black;
+}
+a{
+	color:lightslategrey;
+}
+a:hover{
+	color: black;
+}
+i{
+    font-size: 20px;
+    margin: 5px 5px 0px 5px;   
+}
+.container{
+    padding:20px;
+	min-height: 100%;
+	
+}
+section{
+    padding: 20px 0px 20px 0px;
+    max-width: 400px;
+    margin:auto;
+	
+}
+select{
+	margin:5px 5px 0px 5px;
+}
+.choice{
+	display: flex;
+    justify-content: center;
+	
+	top:0;
+}
+.choice-item{
+	padding: 10px 30px 10px 30px;	
+}
+select{
+	width:80px;
+}
+@media screen and (max-width:900px){
+    .choice{
+        display:grid;
+    }
+}
+.result{
+	text-align: center;
+}
+input[type="radio"]{
+	width:50px;
+	margin-left: 15px;
+}
+
+
+			 
