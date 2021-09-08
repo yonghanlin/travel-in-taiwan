@@ -1,6 +1,7 @@
 # Travel In Taiwan
 <p>A travel website that helps you find places to travel in Taiwan.<br>
-It uses MAMP to combine php website and database.</p>
+It uses MAMP to combine php website and database.<br>
+Data was collected from Taiwan Government Open Data Platform.</p>
 
 <img src="/images/website.png" width="600" /> 
 
