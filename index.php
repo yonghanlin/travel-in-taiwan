@@ -17,7 +17,7 @@
 		</header>
 	</div>
 	<div>	
-			<form action="index2.php" method="post">
+			<form action="dropdown_filter_result.php" method="post">
 			<div class="choice">
 				<div class="choice-item">旅遊地區: <br><select name="region">
 					<option value="none">不限</option>
@@ -101,7 +101,7 @@
 	<div class="container">
 		<section>
 			<h3>地區快速篩選: </h3>		
-			<form action="index5.php" method="post">
+			<form action="picture_filter_result.php" method="post">
 				<div style="position:relative">
 					<img src="Taiwan_map.jpg" name="sub" width="500">
 					<input class="btn1" type="submit" value="臺北市" name="sub" style="position:absolute; left:300px; top:100px; width:50px;height:30px;font-size:15px;border:2px white none;background-color:rgba(255,255,255,0.5)">

@@ -52,7 +52,7 @@
 ?>
 
 
-<a href="index3.php?data=<?=$row[0]?>">
+<a href="attraction.php?data=<?=$row[0]?>">
 <?php
 			echo $row[1];
 ?></a>

@@ -41,14 +41,14 @@
 				
 				echo "<script type='text/javascript'>";
 				echo "alert('新增評論成功');";
-				//echo "location.href='index3.php';";
+				//echo "location.href='attraction.php';";
 				echo "</script>";
 				
 			}
 			else{
 				echo "<script type='text/javascript'>";
 				echo "alert('未評分，新增評論失敗');";
-				//echo "location.href='index3.php';";
+				//echo "location.href='attraction.php';";
 				echo "</script>";
 			}
 			
@@ -187,7 +187,7 @@
 ?>
 
 
-<form target="_blank" action="index4.php" method="post">
+<form target="_blank" action="nearby_attraction.php" method="post">
   查看附近 <input type="text" name="num"> 公里內的景點
   <input type="hidden" name="x_data" value="<?=$row2[1]?>">
   <input type="hidden" name="y_data" value="<?=$row2[2]?>">
@@ -201,7 +201,7 @@
 
 	
 		<?php echo $string; ?>
-		<form action="index3.php" method="get">
+		<form action="attraction.php" method="get">
 			<img src="1star.jpg" name="star" alt="一顆星" title="一顆星" width="70">				  
 			<img src="2stars.jpg" name="star" alt="二顆星" title="二顆星" width="70">
 			<img src="3stars.jpg" name="star" alt="三顆星" title="三顆星" width="70">
